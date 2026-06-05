@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jesús Pereira - Fullstack Developer</title>
+    <title>Jesús Pereira - Fullstack Developer finance</title><!-- Hay que crear el cuento ph -->
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Tu CSS propio -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <h1>Jesús Pereira</h1>
-</body>
+    <!-- 1 nnavgar siempre (edicion de la primera linea ya que e resto es bootstrap)-->
+    <!-- 2. usa mismo container de huellas (pagina de clases ejemplo) para que el contenido quede alineado con el nav -->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-code-slash me-2 text-primary"></i>JP
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#intereses">Intereses</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sobre mi, gustos, focos y etc -->
+    <section id="sobre-mi" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center g-4"> <!-- idea de grillas-->
+                <div class="col-md-3 text-center">
+                    <!-- Avatar con iniciales -->
+                    <div class="avatar-circle mx-auto">JP</div>
+                    <!-- bootstrap no tiene avatar, hay que crear el css para esto (se lo pedi a la ia desde el boceto que encontre), es un circulo con fondo y las iniciales adentro -->
+                </div>
+                <div class="col-md-9"> <!-- sumar 12 que usa bootstrap -->
+                    <h1 class="fw-bold mb-1">Jesús Pereira</h1>
+                    <p class="text-primary fs-5 fw-semibold mb-3">Fullstack Developer en formación</p>
+                    <p class="text-muted">
+                        Estudiante de ingniería comercial en economía. Me apasiona encontrar soluciones donde la
+                        tecnología y las finanzas se cruzan. Disfruto creando
+                        automatizaciones y construyendo proyectos web, utilizando desde lenguajes como JavaScript y
+                        Python, hasta herramientas estadísticas como RStudio y Stata. Tengo un gran interés en aplicar
+                        todo esto a las finanzas corporativas y el análisis de datos. Soy alguien que siempre está
+                        aprendiendo cosas nuevas para que mis proyectos personales sigan creciendo.
+                    </p>
+                    <div class="d-flex gap-3 mt-3">
+                        <!--SECCIONES BOTONES BOTSTRAP, PERO TRANSF EN LINKS PARA QUE GUÍEN-->
+                        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                        <a href="#intereses" class="btn btn-outline-primary">Mis intereses</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </html>

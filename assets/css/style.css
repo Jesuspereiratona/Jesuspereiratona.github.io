@@ -1,0 +1,18 @@
+/* Avatar con iniciales */
+.avatar-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #e0e7ff;
+    color: #4f46e5;
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tarjeta punteada para "próximo proyecto" */
+.border-dashed {
+    border: 2px dashed #dee2e6 !important;
+}
