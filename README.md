@@ -3,7 +3,7 @@
 Mi portafolio personal desarrollado durante el curso Full Stack JavaScript.
 
 Ver en vivo: https://byronfire2004.github.io
-
+Portafolio: https://github.com/byronfire2004/byronfire2004.github.io/blob/main/README.md
 ---
 
 ## Comandos básicos de Git
