@@ -2,9 +2,9 @@
 
 Mi portafolio personal desarrollado durante el curso Full Stack JavaScript.
 
-Ver en vivo portafolio: https://byronfire2004.github.io
+Ver en vivo portafolio: https://Jesuspereiratona.github.io
 
-Portafolio readme: https://github.com/byronfire2004/byronfire2004.github.io/blob/main/README.md
+Portafolio readme: https://github.com/Jesuspereiratona/Jesuspereiratona.github.io/blob/main/README.md
 ---
 
 ## Comandos básicos de Git
