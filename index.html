@@ -4,18 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jesús Pereira - Fullstack Developer finance</title><!-- Hay que crear el cuento ph -->
+    <title>Jesús Pereira - Dev en formación</title>
     <!-- Bootstrap 5.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Tu CSS propio -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- 1 nnavgar siempre (edicion de la primera linea ya que e resto es bootstrap)-->
-    <!-- 2. usa mismo container de huellas (pagina de clases ejemplo) para que el contenido quede alineado con el nav -->
+
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">
@@ -28,6 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#avances">Avances</a></li>
                     <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#intereses">Intereses</a></li>
                 </ul>
@@ -35,88 +34,149 @@
         </div>
     </nav>
 
-    <!-- Sobre mi, gustos, focos y etc -->
+    <!-- Sobre mí -->
     <section id="sobre-mi" class="py-5 bg-light">
         <div class="container">
-            <div class="row align-items-center g-4"> <!-- idea de grillas-->
+            <div class="row align-items-center g-4">
                 <div class="col-md-3 text-center">
-                    <!-- Avatar con iniciales -->
                     <div class="avatar-circle mx-auto">JP</div>
-                    <!-- bootstrap no tiene avatar, hay que crear el css para esto (se lo pedi a la ia desde el boceto que encontre), es un circulo con fondo y las iniciales adentro -->
                 </div>
-                <div class="col-md-9"> <!-- sumar 12 que usa bootstrap -->
+                <div class="col-md-9">
                     <h1 class="fw-bold mb-1">Jesús Pereira</h1>
                     <p class="text-primary fs-5 fw-semibold mb-3">Fullstack Developer en formación</p>
                     <p class="texto-justificado">
-                        Estudiante de ingniería comercial en economía. Me apasiona encontrar soluciones donde la
-                        tecnología y las finanzas se cruzan. Disfruto creando
-                        automatizaciones y construyendo proyectos web, utilizando desde lenguajes como JavaScript y
-                        Python, hasta herramientas estadísticas como RStudio y Stata. Tengo un gran interés en aplicar
-                        todo esto a las finanzas corporativas y el análisis de datos. Soy alguien que siempre está
-                        aprendiendo cosas nuevas para que mis proyectos personales sigan creciendo.
+                        Estudio ingeniería comercial y en el camino descubrí que me gusta más construir las herramientas
+                        que usar las de otros. Este portafolio es un registro de ese proceso: tareas, proyectos y
+                        avances del bootcamp, en tiempo real y sin filtros.
                     </p>
                     <div class="d-flex gap-3 mt-3">
-                        <!--SECCIONES BOTONES BOTSTRAP, PERO TRANSF EN LINKS PARA QUE GUÍEN Y FUNCIONEN A FUTURO-->
-                        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
-                        <a href="#intereses" class="btn btn-outline-primary">Mis intereses</a>
+                        <a href="#avances" class="btn btn-primary">Ver avances</a>
+                        <a href="#proyectos" class="btn btn-outline-primary">Proyectos</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Avances del curso -->
+    <section id="avances" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-2">Avances del bootcamp</h2>
+            <p class="text-center text-muted mb-5">Lo que voy aprendiendo semana a semana</p>
+            <div class="row g-3">
 
-    <!-- INTERESES, TODOS LOS CLAS DE HUELLITAS -->
-    <section id="intereses" class="py-5 bg-light">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Completado</span>
+                            <h5 class="card-title">HTML & CSS básico</h5>
+                            <p class="card-text text-muted small">Estructura de páginas, formularios y estilos. Primera
+                                tarea: mensaje de error con JS.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">En curso</span>
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text text-muted small">Arreglos, funciones, DOM y manejo de errores.
+                                Proyecto actual: ruleta aleatoria.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-dashed shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Próximamente</span>
+                            <h5 class="card-title">Por definir</h5>
+                            <p class="card-text text-muted small">Se actualiza conforme avance el curso.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-2">Proyectos</h2>
+            <p class="text-center text-muted mb-5">Tareas y proyectos del bootcamp</p>
+            <div class="row g-3">
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruleta aleatoria</h5>
+                            <p class="card-text text-muted small">Elige un participante al azar de una lista. Hecho con
+                                JS puro y arreglos.</p>
+                            <a href="https://jesuspereiratona.github.io/desbuggear-ruleta" target="_blank"
+                                class="btn btn-sm btn-outline-primary mt-2">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 border-dashed shadow-sm">
+                        <div class="card-body d-flex align-items-center justify-content-center text-center">
+                            <div>
+                                <i class="bi bi-plus-circle text-muted fs-1 mb-2 d-block"></i>
+                                <p class="text-muted small mb-0">Próximo proyecto en camino...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Intereses -->
+    <section id="intereses" class="py-5">
         <div class="container">
             <h2 class="text-center mb-2">Intereses</h2>
             <p class="text-center text-muted mb-5">Qué me mueve además del código</p>
             <div class="row row-cols-2 row-cols-md-4 g-3 text-center">
-                <!--!visualizacion celulares, medianas y los espacios de no recuerdo xd jajaja-->
                 <div class="col">
-                    <div class="p-4 bg-white rounded shadow-sm"> <!--explicqacion ABAJOOO-->
+                    <div class="p-4 bg-white rounded shadow-sm">
                         <i class="bi bi-laptop text-primary fs-2 mb-2 d-block"></i>
                         <p class="mb-0 fw-medium">Desarrollo web</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="p-4 bg-white rounded shadow-sm">
-                        <i class="bi bi-puzzle text-primary fs-2 mb-2 d-block"></i>
-                        <p class="mb-0 fw-medium">Resolución de problemas</p>
+                        <i class="bi bi-graph-up text-primary fs-2 mb-2 d-block"></i>
+                        <p class="mb-0 fw-medium">Finanzas & datos</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="p-4 bg-white rounded shadow-sm">
-                        <i class="bi bi-book text-primary fs-2 mb-2 d-block"></i>
-                        <p class="mb-0 fw-medium">Aprendizaje continuo</p>
+                        <i class="bi bi-puzzle text-primary fs-2 mb-2 d-block"></i>
+                        <p class="mb-0 fw-medium">Resolver problemas</p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-4 bg-white rounded shadow-sm"> <!-- le pedi a chatgt que me diera codigos de cajitas considerando fondo blanco 
-                        quedaron NITIDAS -->
-                        <i class="bi bi-plus-circle text-muted fs-2 mb-2 d-block"></i> <!-- block genere el bloque lindo prueba 2-->
-                        <p class="texto-justificado">Cero humos: No soy ningún gurú, solo alguien que siempre está
-                            aprendiendo.
-
-                            Los negocios: Me gusta aplicar la tecnología a las finanzas y al e-commerce (aunque ya no lo
-                            hago).
-
-                            La vida real: Estar con mi familia y jugar warthunder o areabreakout.</p>
+                    <div class="p-4 bg-white rounded shadow-sm">
+                        <i class="bi bi-controller text-primary fs-2 mb-2 d-block"></i>
+                        <p class="mb-0 fw-medium">Warthunder & familia</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer class="bg-dark text-light text-center p-3">
-        Hecho por Jesús Pereira pruebita portafolio 1 con git
+        Hecho por Jesús Pereira · 
+        <a href="https://github.com/Jesuspereiratona" class="text-light">GitHub</a>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/app.js"></script>
 
 </body>
-
 </html>
